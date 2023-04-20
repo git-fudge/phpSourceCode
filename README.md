@@ -10,19 +10,19 @@ Simple calculator API hosted on APIMATIC
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```php
-composer require "uniquelyidentify803/string:5.5.103"
+composer require "uniquelyidentify803/string:5.5.104"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```php
 "require": {
-    "uniquelyidentify803/string": "5.5.103"
+    "uniquelyidentify803/string": "5.5.104"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/uniquelyidentify803/string#5.5.103
+https://packagist.org/packages/uniquelyidentify803/string#5.5.104
 
 ## Test the SDK
 
@@ -35,7 +35,7 @@ You can change the PHPUnit test configuration in the `phpunit.xml` file.
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://github.com/git-fudge/phpSourceCode/blob/5.5.103/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://github.com/git-fudge/phpSourceCode/blob/5.5.104/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -62,11 +62,11 @@ $client = APIMATICCalculatorClientBuilder::init()
 
 ## List of APIs
 
-* [Simple Calculator](https://github.com/git-fudge/phpSourceCode/blob/5.5.103/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://github.com/git-fudge/phpSourceCode/blob/5.5.104/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [ApiException](https://github.com/git-fudge/phpSourceCode/blob/5.5.103/doc/api-exception.md)
-* [HttpRequest](https://github.com/git-fudge/phpSourceCode/blob/5.5.103/doc/http-request.md)
-* [HttpResponse](https://github.com/git-fudge/phpSourceCode/blob/5.5.103/doc/http-response.md)
+* [ApiException](https://github.com/git-fudge/phpSourceCode/blob/5.5.104/doc/api-exception.md)
+* [HttpRequest](https://github.com/git-fudge/phpSourceCode/blob/5.5.104/doc/http-request.md)
+* [HttpResponse](https://github.com/git-fudge/phpSourceCode/blob/5.5.104/doc/http-response.md)
 
