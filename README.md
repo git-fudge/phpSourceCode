@@ -10,19 +10,19 @@ Simple calculator API hosted on APIMATIC
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```php
-composer require "uniquelyidentify803/string:1.0.995"
+composer require "uniquelyidentify803/string:1.0.994"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```php
 "require": {
-    "uniquelyidentify803/string": "1.0.995"
+    "uniquelyidentify803/string": "1.0.994"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/uniquelyidentify803/string#1.0.995
+https://packagist.org/packages/uniquelyidentify803/string#1.0.994
 
 ## Test the SDK
 
