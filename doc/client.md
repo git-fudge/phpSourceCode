@@ -19,7 +19,7 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```php
-$client = APIMATICCalculatorClientBuilder::init()
+$client = APIMATICCalculatorLib\APIMATICCalculatorClientBuilder::init()
     ->environment('production')
     ->build();
 ```

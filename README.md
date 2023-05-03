@@ -10,19 +10,19 @@ Simple calculator API hosted on APIMATIC
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```php
-composer require "uniquelyidentify803/string:5.5.104"
+composer require "uniquelyidentify803/string:1.0.995"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```php
 "require": {
-    "uniquelyidentify803/string": "5.5.104"
+    "uniquelyidentify803/string": "1.0.995"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/uniquelyidentify803/string#5.5.104
+https://packagist.org/packages/uniquelyidentify803/string#1.0.995
 
 ## Test the SDK
 
@@ -35,7 +35,7 @@ You can change the PHPUnit test configuration in the `phpunit.xml` file.
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://github.com/git-fudge/phpSourceCode/blob/5.5.104/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -55,18 +55,18 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```php
-$client = APIMATICCalculatorClientBuilder::init()
+$client = APIMATICCalculatorLib\APIMATICCalculatorClientBuilder::init()
     ->environment('production')
     ->build();
 ```
 
 ## List of APIs
 
-* [Simple Calculator](https://github.com/git-fudge/phpSourceCode/blob/5.5.104/doc/controllers/simple-calculator.md)
+* [Simple Calculator](doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [ApiException](https://github.com/git-fudge/phpSourceCode/blob/5.5.104/doc/api-exception.md)
-* [HttpRequest](https://github.com/git-fudge/phpSourceCode/blob/5.5.104/doc/http-request.md)
-* [HttpResponse](https://github.com/git-fudge/phpSourceCode/blob/5.5.104/doc/http-response.md)
+* [ApiException](doc/api-exception.md)
+* [HttpRequest](doc/http-request.md)
+* [HttpResponse](doc/http-response.md)
 
