@@ -32,16 +32,11 @@ function getCalculate(array $options): float
 ## Example Usage
 
 ```php
-$collect = [];
-
-$operation = Models\OperationTypeEnum::MULTIPLY;
-$collect['operation'] = $operation;
-
-$x = 222.14;
-$collect['x'] = $x;
-
-$y = 165.14;
-$collect['y'] = $y;
+$collect = [
+    'operation' => OperationTypeEnum::MULTIPLY,
+    'x' => 222.14,
+    'y' => 165.14
+];
 
 $result = $simpleCalculatorController->getCalculate($collect);
 ```
